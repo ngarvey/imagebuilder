@@ -699,7 +699,7 @@ Wait-Docker()
 
 try
 {
-    Install-ContainerHost -NoRestart
+    Install-ContainerHost
 }
 catch 
 {
