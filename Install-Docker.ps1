@@ -352,7 +352,7 @@
 '',
 '    $daemonSettings | ConvertTo-Json | Out-File -FilePath $daemonSettingsFile -Encoding ASCII',
 '    ',
-'    & dockerd --register-service --service-name $global:DockerServiceName',
+"    & dockerd --register-service --service-name $global:DockerServiceName",
 '',
 '    Start-Docker',
 '',
